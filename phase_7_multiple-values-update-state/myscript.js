@@ -14,19 +14,16 @@ const btnUpdateTo9 = document.getElementById('updateTo9');
 const btnUpdateTo10 = document.getElementById('updateTo10');
 
 //set up event listeners
-btnUpdateTo8.addEventListener('click', () => {
+btnUpdateTo8.addEventListener('click', function(){
     setState({newValue: 8});
-    render();
 })
 
-btnUpdateTo9.addEventListener('click', () => {
+btnUpdateTo9.addEventListener('click', function(){
     setState({newValue: 9});
-    render();
 })
 
-btnUpdateTo10.addEventListener('click', () => {
+btnUpdateTo10.addEventListener('click', function(){
     setState({newValue: 10});
-    render();
 })
 
 //update function now takes a parameter we'll call props
