@@ -1,0 +1,2 @@
+#Bare Bones HTML Approach
+With this approach we just have raw HTML on the page. We start with the value 5 in the `p` tag and we can update the value by changing the code in the tag to 7 then refreshing the page 
